@@ -16,24 +16,24 @@ Structs, Object Oriented Programming (OOP), File I/O, Header and cpp files
 
 Output:
 =======
-NAME-OF 1:John Smith
-FATHER-OF 10:Dave Smith
-MOTHER-OF 10:Mary Green
-MOTHER-OF 11:Mary Green
-HALF-SIBLINGS-OF 11:John Smith, David Dean, Howard Smith
-FULL-SIBLINGS-OF 1:Howard Smith
-CHILDREN-OF 5:John Smith, Howard Smith, Ken Dean
-CHILDREN-OF 1:UNAVAILABLE
-MUTUAL-FRIENDS-OF 5:Dan Benning, Jennifer Benning
-INVERSE-FRIENDS-OF 9:Dave Smith, Mary Green, Robert Dean, Kate Dean
-WHO-HAS-MOST-MUTUAL-FRIENDS:Barbara Benning
+	NAME-OF 1:John Smith
+	FATHER-OF 10:Dave Smith
+	MOTHER-OF 10:Mary Green
+	MOTHER-OF 11:Mary Green
+	HALF-SIBLINGS-OF 11:John Smith, David Dean, Howard Smith
+	FULL-SIBLINGS-OF 1:Howard Smith
+	CHILDREN-OF 5:John Smith, Howard Smith, Ken Dean
+	CHILDREN-OF 1:UNAVAILABLE
+	MUTUAL-FRIENDS-OF 5:Dan Benning, Jennifer Benning
+	INVERSE-FRIENDS-OF 9:Dave Smith, Mary Green, Robert Dean, Kate Dean
+	WHO-HAS-MOST-MUTUAL-FRIENDS:Barbara Benning
 
 
 
-() Code by Tacuma Solomon
-() Not for Redistribution or Reuse.
+	() Code by Tacuma Solomon
+	() Not for Redistribution or Reuse.
 
-Press any key to continue . . .
+	Press any key to continue . . .
 
 
 Statement of Problem:
