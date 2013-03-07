@@ -1,4 +1,3 @@
-
 Community Binary Search Tree
 ============================
 
@@ -39,8 +38,8 @@ Output:
 Statement of Problem:
 =====================
 
-This assignment involves modeling a community of people to be able to answer certain questions about the community and its members.
------------------------------------------------------------------------------------------------------------------------------------
+#####This assignment involves modeling a community of people to be able to answer certain questions about the community and its members.
+
 Each member x of the community is a person that has a unique SSN (any unsigned int), a name (first and last name), a mother, a father, and a list of people (from within the community) that x considers to be his/her friends. Note that if x considers y a friend, it does not necessarily follow that y considers x a friend. The kinds of queries that your program should be able to answer are:
 
 For a given person x, find all the children of x; 
@@ -62,7 +61,7 @@ LAST NAME: word        // just one word representing the last name
 SSN: number                     // social security number (any unsigned integer)
 FATHER: number            // representing the SSN of the father
 MOTHER: number          // representing the SSN of the mother
-FRIENDS: a coma-separated list of SSNs of this person’s friends
+FRIENDS: a coma-separated list of SSNs of this personï¿½s friends
 Note: The list after FRIENDS is the list of the SSNs of the people that the person in question considers to be his/her friends. Those SSNs are not necessarily sorted.
 
 The second input file will have a sequence of queries, one query per line, where each query is any of the following:
@@ -85,7 +84,7 @@ Your program must take as input the two input files above, in that order. That i
 
 >> Project3 communityFileName queriesFileName
 
-(Note this unlike in the previous two projects, in this project the file names are not guaranteed to be literally “communityFileName” and “queriesFileName”.)
+(Note this unlike in the previous two projects, in this project the file names are not guaranteed to be literally ï¿½communityFileNameï¿½ and ï¿½queriesFileNameï¿½.)
 
 Your program must then output as many lines as there are query lines: the kth output line should be the answer to the kth query line in file queriesFileName. Your output line answer to a query should begin by repeating the exact same query, followed by a colon (:), followed by the query-answer. The query-answer for the first three types of query should be the two words representing the first and last name of the answer-person. The query-answer for the next five types of query should be a list of first name and last name pairs, separated by commas, and ordered so that their SSNs are in increasing order. For example, a possible output for "CHILDREN-OF 3155" can be: 
 
